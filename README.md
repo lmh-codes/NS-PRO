@@ -16,17 +16,16 @@ NodeSeek 非官方 Android 客户端。WebView 打开 [NodeSeek 官网](https://
 
 ### 客户端
 
-- 打开官方 NodeSeek / DeepFlood，页面与官网一致
+- 打开官方 NodeSeek，页面与官网一致
 - 内置 Nodeseek Pro 脚本，无需安装 Tampermonkey / 油猴
 - 页面顶部下拉刷新当前页
-- 合作站 Connect 一键授权（如 NodeImage 图床）
 - 首次安装引导设置链接默认打开方式
 - 长按页面打开菜单（刷新、重载脚本、清除登录等）
 - 外链走系统浏览器
 
 ### 内置 Pro 插件（Nodeseek Pro）
 
-用于增强 NodeSeek / DeepFlood 论坛体验，主要能力包括：
+用于增强 NodeSeek 论坛体验，主要能力包括：
 
 - **基础功能**：自动签到、签到过期提醒、下拉加载 / 无限滚动、NodeImage 图床上传助手
 - **互动增强**：快速评论、快捷键操作

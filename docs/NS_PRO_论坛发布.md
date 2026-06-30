@@ -10,16 +10,15 @@
 
 ### 客户端
 
-- 打开官方 NodeSeek / DeepFlood，页面与官网完全一致
+- 打开官方 NodeSeek，页面与官网完全一致
 - 内置 GreasyFork Nodeseek Pro，无需油猴
 - 顶部下拉刷新当前页
-- 合作站 Connect 一键授权（如 NodeImage 图床）
 - 长按页面打开菜单（刷新、重载脚本、清除登录等）
 - 外链走系统浏览器
 
 ### 内置 Pro 插件
 
-用于增强 NodeSeek / DeepFlood 论坛体验：
+用于增强 NodeSeek 论坛体验：
 
 - **基础功能**：自动签到、签到提醒、下拉加载、NodeImage 图床助手
 - **互动增强**：快速评论、快捷键
