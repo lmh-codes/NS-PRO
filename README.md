@@ -36,6 +36,18 @@ NodeSeek 非官方 Android 客户端。WebView 打开 [NodeSeek 官网](https://
 
 打开 Pro 设置面板时，客户端会自动禁用下拉刷新，避免误触。
 
+## 合作站授权
+
+部分合作站（如图床等）需通过 NodeSeek 的 Connect 完成账号关联。若在 App 内授权不成功（例如一直转圈、提示成功但未登录、授权后页面异常等），请改用网页端操作：
+
+1. 在浏览器打开 [NodeSeek 官网](https://www.nodeseek.com) 并登录
+2. 进入 **设置**，找到 **关联网站**（或合作站相关入口）
+3. **取消** 已与 NS PRO 关联的网站绑定
+4. 仍在网页端重新发起 Connect，按提示完成授权
+5. 授权成功后，再打开 App 使用合作站功能
+
+网页端 Connect 与官网流程一致，通常比 App 内授权更稳定。完成一次网页授权后，App 内一般即可正常使用。
+
 ## 安装
 
 1. 下载 `apk/NS-PRO.apk` 或从 [Releases](https://github.com/lmh-codes/NS-PRO/releases/latest) 获取

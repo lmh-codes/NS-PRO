@@ -29,6 +29,19 @@
 
 ---
 
+## 合作站授权
+
+部分合作站需通过 NodeSeek Connect 关联账号。若 App 内授权失败（无响应、假登录、跳转异常等），请：
+
+1. 用浏览器登录 NodeSeek，进入 **设置 → 关联网站**
+2. 取消与 NS PRO 相关的网站绑定
+3. 在网页端重新 Connect 并完成授权
+4. 完成后回到 App 使用
+
+建议优先用网页 Connect，成功率更高。
+
+---
+
 ## 本地安装
 
 1. 下载 [NS-PRO.apk](https://github.com/lmh-codes/NS-PRO/releases/latest/download/NS-PRO.apk)
