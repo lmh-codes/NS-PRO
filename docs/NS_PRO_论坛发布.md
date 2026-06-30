@@ -1,4 +1,4 @@
-# 【工具】NS PRO — NodeSeek Android 客户端 v3.0.18
+# 【工具】NS PRO — NodeSeek Android 客户端 v1.0.24
 
 非官方第三方 App。WebView 打开 [NodeSeek 官网](https://www.nodeseek.com)，**本地注入 [GreasyFork Nodeseek Pro](https://greasyfork.org/zh-CN/scripts/567109-nodeseek-pro) 脚本**（GPL-3.0），免装油猴。
 
@@ -8,10 +8,25 @@
 
 ## 能做什么
 
-- 打开官方 NodeSeek，页面与官网完全一致
-- 内置 GreasyFork Nodeseek Pro：签到、下拉加载、快捷回复、过滤、历史、等级标记、Callout、图片预览等
+### 客户端
+
+- 打开官方 NodeSeek / DeepFlood，页面与官网完全一致
+- 内置 GreasyFork Nodeseek Pro，无需油猴
+- 顶部下拉刷新当前页
+- 合作站 Connect 一键授权（如 NodeImage 图床）
 - 长按页面打开菜单（刷新、重载脚本、清除登录等）
 - 外链走系统浏览器
+
+### 内置 Pro 插件
+
+用于增强 NodeSeek / DeepFlood 论坛体验：
+
+- **基础功能**：自动签到、签到提醒、下拉加载、NodeImage 图床助手
+- **互动增强**：快速评论、快捷键
+- **阅读体验**：Callout 渲染、代码高亮、图片预览、等级标记
+- **内容管理**：内容过滤、浏览历史
+- **个性化**：可视化设置面板，功能可独立开关；支持配置备份
+- **辅助工具**：名望诊断、社交关系辅助等
 
 ---
 
