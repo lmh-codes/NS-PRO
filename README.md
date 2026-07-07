@@ -2,7 +2,7 @@
 
 NodeSeek Android 客户端（非官方）。WebView 打开 [NodeSeek 官网](https://www.nodeseek.com)，内置 [Nodeseek Pro](https://greasyfork.org/zh-CN/scripts/567109-nodeseek-pro) 脚本。
 
-**Android 7.0+** · 当前版本 **v1.0.75**
+**Android 7.0+** · 当前版本 **v1.0.76**
 
 ## 下载
 
