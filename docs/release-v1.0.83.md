@@ -1,12 +1,13 @@
-## NS PRO v1.0.81
+## NS PRO v1.0.83
 
 NodeSeek 非官方 Android 客户端，WebView 打开官网并本地注入 **Nodeseek Pro** 用户脚本，免装油猴。
 
 ### 本版更新
 
-- **冷启动闪屏**：首屏不再在 `onPageCommitVisible` 过早显示 WebView，改为等 DOM / Pro 脚本就绪后再 reveal
-- **加载指示**：冷启动期间保持顶部进度条，避免半黑空白页暴露约 1–2 秒
-- **背景同步**：`header_guard` 在 body 出现时同步页面深浅色背景，减少黑/白闪烁
+- **上半屏黑屏**：修复冷启动时列表滚动位置被误恢复（`sessionStorage` 快照 + 任意 `popstate` 触发）
+- **滚动复位**：新增列表页启动复位，重置 window 与 `#app` / `main` 等内部滚动容器
+- **WebView 缩放**：关闭 `loadWithOverviewMode`，避免首屏视口缩放导致内容沉底
+- **背景同步**：移除 `header_guard` 过早设置深色 WebView 背景（加剧黑屏观感）
 
 ### 客户端能力
 
