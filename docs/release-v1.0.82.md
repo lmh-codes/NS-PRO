@@ -1,13 +1,12 @@
-## NS PRO v1.0.80
+## NS PRO v1.0.82
 
 NodeSeek 非官方 Android 客户端，WebView 打开官网并本地注入 **Nodeseek Pro** 用户脚本，免装油猴。
 
 ### 本版更新
 
-- **回退屏幕自适应**：移除 v1.0.75 引入的 `setupDisplayAdapt()` 及 `notifyDisplayChanged()`，与 v1.0.74 备份一致
-- **全局 CSS 精简**：去掉 `box-sizing: border-box` 全局规则、正文 img/svg 强制缩放、`:root` 断点变量等 v1.0.75+ 新增样式
-- **通知页样式隔离**：通知页修复 CSS 改为仅在 `/notification` 路由下动态注入，不再写入全局样式表
-- **WebView 设置恢复**：`loadWithOverviewMode` 恢复为 `true`（与 v1.0.74 备份一致）
+- **修复纯黑屏**：回退 v1.0.81 冷启动延后显示逻辑（WebView 长时间不可见导致全黑）
+- **显示时机恢复**：与 v1.0.80 一致，在 `onPageCommitVisible` 正常 reveal
+- **保留**：`header_guard` 背景色同步（不影响显示逻辑）
 
 ### 客户端能力
 
