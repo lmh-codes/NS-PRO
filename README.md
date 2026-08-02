@@ -2,7 +2,7 @@
 
 NodeSeek Android 客户端（非官方）。WebView 打开 [NodeSeek 官网](https://www.nodeseek.com)，内置 [Nodeseek Pro](https://greasyfork.org/zh-CN/scripts/567109-nodeseek-pro) 脚本。
 
-**Android 7.0+** · 当前版本 **v1.1.2**
+**Android 7.0+** · 当前版本 **v1.1.3**
 
 ## 下载
 
@@ -16,6 +16,8 @@ NodeSeek Android 客户端（非官方）。WebView 打开 [NodeSeek 官网](htt
 1. 下载 **NS-PRO.apk**
 2. 允许安装未知来源 → 安装
 3. 覆盖升级失败时，先卸载旧版再装（卸载会清空登录和 Pro 设置）
+4. 部分 ColorOS/OPPO 会拦截 adb 安装（错误 -99）：请用文件管理器打开 APK 安装
+5. 本应用桌面名 **NS PRO**，包名 com.nodeseek.pro；签名变更时须卸旧重装
 
 ## 功能
 
