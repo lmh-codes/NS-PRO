@@ -1,4 +1,4 @@
-# 【工具】NS PRO — NodeSeek Android 客户端 v1.1.2
+# 【工具】NS PRO — NodeSeek Android 客户端 v1.1.3
 
 非官方第三方 App。WebView 打开 [NodeSeek 官网](https://www.nodeseek.com)，**本地注入 [GreasyFork Nodeseek Pro](https://greasyfork.org/zh-CN/scripts/567109-nodeseek-pro) 脚本**（GPL-3.0），免装油猴。
 
